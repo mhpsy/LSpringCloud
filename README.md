@@ -401,6 +401,8 @@ springcloud-nacos-provider: # nacos中的服务id
 
 ![image.png](assets/image-20220630140150-zyk9vmm.png "源码的类图")
 
+此处并不是无用的代码 是IRule规则的类图 一个是mermaid格式 一个是plantuml
+
 ```mermaid
 classDiagram
 direction BT
