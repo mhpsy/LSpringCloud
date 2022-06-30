@@ -1,0 +1,13 @@
+server:
+  port: 10086
+spring:
+  application:
+    name: eurekaServer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+ribbon:
+  eager-load:
+    enabled: true #开启饥饿加载
+    clients: userServer #指定对userServer这个服务饥饿加载
