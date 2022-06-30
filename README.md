@@ -403,7 +403,7 @@ springcloud-nacos-provider: # nacos中的服务id
 
 此处并不是无用的代码 是IRule规则的类图 一个是mermaid格式 一个是plantuml
 
-```mermaid
+```
 classDiagram
 direction BT
 class AbstractLoadBalancerRule
@@ -435,7 +435,7 @@ WeightedResponseTimeRule  --&gt;  RoundRobinRule
 ZoneAvoidanceRule  --&gt;  PredicateBasedRule 
 ```
 
-```plantuml
+```
 @startuml
 
 !theme plain
